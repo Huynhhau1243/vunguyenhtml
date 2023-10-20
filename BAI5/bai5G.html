@@ -1,0 +1,32 @@
+<!-- Submit button là nộp gửi  -->
+<head></head>
+<form action="http://localhost:3000/PHP/sever.php"
+            method="post"> 
+    <div>
+        Họ tên: <input type="text"
+                        name="fullname"
+                        value="Huỳnh Hậu">
+    </div>
+    <div>
+        Giới tính: 
+        Nam: <input type="radio" name="sex" value="0" checked> ||
+        Nữ: <input type="radio" name="sex" value="0" checked>
+    </div>
+
+    <div>
+        Quốc tịch: 
+        <select name="nation">
+            <option value="0">Hà Nội</option>
+            <option value="1">Đà Nẵng</option>
+            <option value="2">Thái Bình </option>
+            <option value="3">Bình Dương</option>
+            <option value="4">Tp.Hồ Chí Minh</option>
+        </select>
+    </div>
+    <input type="submit" value="Đăng ký">
+</form>
+
+<!-- chức năng của submit la gửi toàn bộ dữ liệu form đi đến 1 nơi nào đó  -->
+<!-- action là hành động giá trị của action là 1 địa chỉ nào đó  -->
+
+<!-- method là phương thức gửi dữ liệu lên  -->

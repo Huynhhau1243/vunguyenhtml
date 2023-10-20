@@ -1,0 +1,22 @@
+<!-- script element -->
+<head>
+    <style>
+        input {width: 30px;}
+        #ket_qua {background-color: gold;}
+    </style>
+</head>
+<script>
+    function program(){
+        var x = parseInt(document.getElementById('x').value)
+        var y = parseInt(document.getElementById('y').value)
+        var tong = x + y
+        document.getElementById('ket_qua'). innerHTML = tong
+    }
+</script>
+<body>
+    <input id="x" value="1">
+    + 
+    <input id="y" value="2">
+    <button onclick="program()">=</button>
+    <span id="ket_qua">?</span>
+</body>
